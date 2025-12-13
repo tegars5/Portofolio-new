@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
         {/* Consolidated Icon Links */}
         <div className="flex items-center gap-4">
           <a 
-            href="mailto:hello@alex.dev" 
+            href="mailto:tegar0651@gmail.com" 
             className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-primary/50 text-text-muted hover:text-primary transition-all group"
             aria-label="Email"
           >
@@ -28,18 +28,18 @@ export const Footer: React.FC = () => {
           </a>
           
           <a 
-            href="https://wa.me/6281234567890" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-[#25D366]/50 text-text-muted hover:text-[#25D366] transition-all group"
-            aria-label="WhatsApp"
+          href="https://wa.me/6287788772342"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-3 rounded-full bg-white/5 border border-white/10 text-text-muted transition-all duration-150 ease-out hover:bg-white/10 hover:border-primary/50 hover:text-primary" 
+          aria-label="WhatsApp"
           >
-            <IconWhatsApp className="w-5 h-5" />
-          </a>
+          <IconWhatsApp className="w-5 h-5" />
+        </a>
 
           <a 
-            href="#" 
-            className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/30 text-text-muted hover:text-white transition-all group"
+            href="https://github.com/tegars5" 
+            className="p-3 rounded-full bg-white/5 border border-white/10 text-text-muted transition-all duration-150 ease-out hover:bg-white/10 hover:border-primary/50 hover:text-primary"
             aria-label="GitHub"
           >
             <IconGithub className="w-5 h-5" />
