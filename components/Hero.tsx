@@ -62,13 +62,13 @@ export const Hero: React.FC = () => {
                   transformStyle: 'preserve-3d',
                 }}
              >
-                {/* App Window Frame */}
-                <div className="relative rounded-xl overflow-hidden bg-[#1A1C20] border border-white/10 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.8)]">
+                {/* App Window Frame - UPDATED: White Transparent Glass Style */}
+                <div className="relative rounded-xl overflow-hidden bg-white/10 backdrop-blur-md border border-white/20 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.8)]">
                   {/* Window Header / Traffic Lights */}
-                  <div className="h-8 bg-[#1F2125] border-b border-white/5 flex items-center px-4 gap-2">
-                    <div className="w-3 h-3 rounded-full bg-[#FF5F57] shadow-inner"></div>
-                    <div className="w-3 h-3 rounded-full bg-[#FEBC2E] shadow-inner"></div>
-                    <div className="w-3 h-3 rounded-full bg-[#28C840] shadow-inner"></div>
+                  <div className="h-8 bg-white/5 border-b border-white/10 flex items-center px-4 gap-2">
+                    <div className="w-3 h-3 rounded-full bg-[#FF5F57] shadow-inner opacity-80"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#FEBC2E] shadow-inner opacity-80"></div>
+                    <div className="w-3 h-3 rounded-full bg-[#28C840] shadow-inner opacity-80"></div>
                   </div>
 
                   {/* Image Container */}
@@ -76,7 +76,7 @@ export const Hero: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none"></div>
                     
                     {/* Glass Sheen Reflection */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-30 pointer-events-none z-20"></div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-40 pointer-events-none z-20"></div>
 
                     {/* Profile Image */}
                     <img 
