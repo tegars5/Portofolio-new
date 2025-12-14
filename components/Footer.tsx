@@ -1,5 +1,5 @@
-import React from 'react';
-import { IconGithub, IconTwitter, IconMail, IconWhatsApp } from './Icons';
+import React from "react";
+import { IconGithub, IconTwitter, IconMail, IconWhatsApp } from "./Icons";
 
 export const Footer: React.FC = () => {
   return (
@@ -9,44 +9,39 @@ export const Footer: React.FC = () => {
 
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8 relative z-10">
         <div className="flex flex-col items-center md:items-start gap-2 text-center md:text-left">
-          <span className="text-lg font-bold text-text-main tracking-tight">
-            Alex Developer
-          </span>
-          <span className="text-sm text-text-muted max-w-xs">
-            Building digital products with attention to detail. Open for new opportunities.
-          </span>
+          <span className="text-lg font-bold text-text-main tracking-tight">Tegar Saputra</span>
+          <span className="text-sm text-text-muted max-w-xs">Building digital products with attention to detail. Open for new opportunities.</span>
         </div>
 
         {/* Consolidated Icon Links */}
         <div className="flex items-center gap-4">
-          <a 
-            href="mailto:tegar0651@gmail.com" 
-            className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-primary/50 text-text-muted hover:text-primary transition-all group"
-            aria-label="Email"
-          >
+          <a href="mailto:tegar0651@gmail.com" className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-primary/50 text-text-muted hover:text-primary transition-all group" aria-label="Email">
             <IconMail className="w-5 h-5" />
           </a>
-          
-          <a 
-          href="https://wa.me/6287788772342"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-3 rounded-full bg-white/5 border border-white/10 text-text-muted transition-all duration-150 ease-out hover:bg-white/10 hover:border-primary/50 hover:text-primary" 
-          aria-label="WhatsApp"
-          >
-          <IconWhatsApp className="w-5 h-5" />
-        </a>
 
-          <a 
-            href="https://github.com/tegars5" 
+          <a
+            href="https://wa.me/6287788772342"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 rounded-full bg-white/5 border border-white/10 text-text-muted transition-all duration-150 ease-out hover:bg-white/10 hover:border-primary/50 hover:text-primary"
+            aria-label="WhatsApp"
+          >
+            <IconWhatsApp className="w-5 h-5" />
+          </a>
+
+          <a
+            href="https://github.com/tegars5"
+            target="_blank"
             className="p-3 rounded-full bg-white/5 border border-white/10 text-text-muted transition-all duration-150 ease-out hover:bg-white/10 hover:border-primary/50 hover:text-primary"
             aria-label="GitHub"
           >
             <IconGithub className="w-5 h-5" />
           </a>
-          
-          <a 
-            href="#" 
+
+          <a
+            href="https://twitter.com/tegars5"
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:border-[#1DA1F2]/50 text-text-muted hover:text-[#1DA1F2] transition-all group"
             aria-label="Twitter"
           >
@@ -54,11 +49,9 @@ export const Footer: React.FC = () => {
           </a>
         </div>
       </div>
-      
+
       <div className="max-w-5xl mx-auto px-6 mt-12 text-center md:text-left border-t border-white/5 pt-8">
-        <p className="text-xs text-text-muted/50">
-          © {new Date().getFullYear()} Alex Developer. All rights reserved. Designed with Linear aesthetic.
-        </p>
+        <p className="text-xs text-text-muted/50">© {new Date().getFullYear()} Tegars. All rights reserved. Designed with Linear aesthetic.</p>
       </div>
     </footer>
   );

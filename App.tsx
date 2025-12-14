@@ -3,7 +3,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { WorkSection } from './components/WorkSection';
 import { ExperienceSection } from './components/ExperienceSection';
-import { ToolsSection } from './components/ToolsSection';
+import { ToolsSection } from './components/StackSection';
 import { EducationSection } from './components/EducationSection';
 import { Footer } from './components/Footer';
 

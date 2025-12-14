@@ -1,41 +1,41 @@
-import React from 'react';
-import { Project } from '../types';
-import { ProjectCard } from './ProjectCard';
-import { IconCode } from './Icons';
+import React from "react";
+import { Project } from "../types";
+import { ProjectCard } from "./ProjectCard";
+import { IconCode } from "./Icons";
 
 const PROJECTS: Project[] = [
   {
-    id: '1',
-    title: 'Nexus Dashboard',
-    description: 'A high-performance analytics dashboard for fintech applications featuring real-time data visualization via WebSockets.',
-    tags: ['Vue.js', 'D3.js', 'Tailwind'],
-    imageUrl: 'https://picsum.photos/seed/nexus/800/450',
-    link: '#'
+    id: "1",
+    title: "Hotel Booking App",
+    description: "A cross-platform mobile application for hotel reservations, built using Flutter and Firebase, featuring state management powered by GetX for reactive performance.",
+    tags: ["Flutter", "Firebase", "GetX"],
+    imageUrl: "/images/projects/project1.png",
+    link: "#",
   },
   {
-    id: '2',
-    title: 'Aether Design System',
-    description: 'Comprehensive design system library used across 12+ products, ensuring UI consistency and accessibility compliance.',
-    tags: ['React', 'TypeScript', 'Storybook'],
-    imageUrl: 'https://picsum.photos/seed/aether/800/450',
-    link: '#'
+    id: "2",
+    title: "Enterprise Management System (Full-Stack)",
+    description: "Developed a robust internal management system with a decoupled architecture. Frontend built with React/TypeScript, backend powered by Laravel 11 API.",
+    tags: ["Laravel 11", "React", "TypeScript", "API", "Mysql"],
+    imageUrl: "/images/projects/project2.jpg",
+    link: "#",
   },
   {
-    id: '3',
-    title: 'Chronos Task Manager',
-    description: 'Productivity tool focusing on keyboard-first navigation and offline-first capabilities using local database sync.',
-    tags: ['Electron', 'React', 'SQLite'],
-    imageUrl: 'https://picsum.photos/seed/chronos/800/450',
-    link: '#'
+    id: "3",
+    title: "Find House App",
+    description: "A mobile application to search and book properties, focusing on high-quality UI/UX and smooth performance across iOS and Android.",
+    tags: ["Flutter", "Dart"],
+    imageUrl: "/images/projects/project3.png",
+    link: "#",
   },
   {
-    id: '4',
-    title: 'Vanguard E-Commerce',
-    description: 'Headless e-commerce frontend built for speed and SEO, achieving perfect Lighthouse scores.',
-    tags: ['Next.js', 'Shopify', 'Framer Motion'],
-    imageUrl: 'https://picsum.photos/seed/vanguard/800/450',
-    link: '#'
-  }
+    id: "4",
+    title: "GO-BOOK App",
+    description: "A Flutter-based mobile application for reading and managing e-books, successfully launched and available on the Google Play Store.",
+    tags: ["Flutter", "Mobile", "Dart"],
+    imageUrl: "/images/projects/project4.png",
+    link: "#",
+  },
 ];
 
 export const WorkSection: React.FC = () => {
@@ -48,9 +48,9 @@ export const WorkSection: React.FC = () => {
           </div>
           <h2 className="text-2xl font-semibold text-text-main">Selected Work</h2>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {PROJECTS.map(project => (
+          {PROJECTS.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>

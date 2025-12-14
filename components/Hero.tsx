@@ -27,7 +27,8 @@ export const Hero: React.FC = () => {
             </h1>
 
             <p className="text-lg text-text-muted leading-relaxed mb-8 max-w-lg mx-auto md:mx-0">
-              I'm Alex, a frontend engineer specializing in building polished software experiences. I bridge the gap between design and engineering with a focus on Vue.js and React ecosystems.
+              I am Tegar, a dedicated Fullstack Engineer who builds scalable solutions using Laravel and develops high-quality mobile and web user interfaces (UI) with Flutter and Vue.js. I transform complex requirements into functional and
+              clean code.
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
