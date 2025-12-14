@@ -33,7 +33,7 @@ const PROJECTS: Project[] = [
     title: "GO-BOOK App",
     description: "A Flutter-based mobile application for reading and managing e-books, successfully launched and available on the Google Play Store.",
     tags: ["Flutter", "Mobile", "Dart"],
-    imageUrl: "/images/projects/project4.png",
+    imageUrl: "/images/projects/project4.jpeg",
     link: "#",
   },
 ];
